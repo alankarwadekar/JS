@@ -1,8 +1,8 @@
 
 // Function Definition
-// function greet(){
-//     alert("Good Afternoon")
-// }
+function greet(){
+    alert("Good Afternoon")
+}
 
 // Function Call
 // greet();
@@ -99,3 +99,40 @@
 // console.log(greet("Jhon"))
 
 
+
+// Function Define create
+// function print(){
+//     console.log("Hello User");   
+// }
+
+// function addition(a,b,c,d){
+//     let result =a+b+c+d
+//     console.log("a+b=",result);
+//     console.log("Square=",Math.pow(result,2));
+    
+    
+// }
+
+function square(num){
+    // console.log(num*num);
+    // return num*num
+}
+
+// Function Call use
+// print();
+// print();
+square(4)
+
+// addition(100,45);
+// addition(1,1,1,1);
+// square(10)
+// console.log(square(10))
+
+// console.log("Area of Circle : ",3.14*square(4));
+
+function cube (num){
+    // console.log(num*num*num);
+    return num*num*num
+}
+// cube(4)
+console.log( "area of circle :",3.14*cube(4) );
